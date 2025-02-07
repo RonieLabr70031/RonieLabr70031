@@ -35,4 +35,4 @@ them at those addresses.
 
 ## Allowed Values
 
-For SignTx on UTXO coins, `i` must be in the range \[0, 100000000].
+For SignTx on UTXO coins, `i` must be in the range \[0, 1000000].
