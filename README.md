@@ -1,6 +1,6 @@
-# BIP-44 Derivation Paths
+# BTC (Native SegWit)
 
-| Bitcoin | BTC | m/84'/0'/0' | bitcoin:17A3yaKDnHEXMunR6bHFVuRJUHW2APh1on | IHwJfnzmu1j78aWaWDwMBok+pdeVPVgDSCMcqIkmstLDeXStTPV2JUzZtFS3jRoGPYxddeCMyqa2UV5Oxa+u1MA= | Bip44 | P2PKH |
+| Bitcoin | BTC | m/84'/0'/0' | bitcoin:bc1q7799s3qgqpuvfyux7u3vgrd2lus66sc0gmeaxj | IHwJfnzmu1j78aWaWDwMBok+pdeVPVgDSCMcqIkmstLDeXStTPV2JUzZtFS3jRoGPYxddeCMyqa2UV5Oxa+u1MA= | Bip44 | P2PKH |
 | Bitcoin           | secp256k1        | `m/p'/c'/a'`           | `m/p'/c'/a'/h/i`   | `m/p'/c'/a'/h/i`   | BIP-32        | [1](#Bitcoin)  |
 | Ethereum          | secp256k1        | `m/44'/60'/0'`         | `m/44'/60'/a'/0/0` | `m/44'/60'/a'/0/0` | BIP-32        | [2](#Ethereum) |
 | Cosmos            | secp256k1        | `m/44'/118'/0'`        | `m/44'/118'/a'/0/0`| `m/44'/118'/a'/0/0`| BIP-32        | -              |
@@ -35,4 +35,4 @@ them at those addresses.
 
 ## Allowed Values
 
-For SignTx on UTXO coins, `i` must be in the range \[0, 100000000].
+For SignTx on UTXO coins, `i` must be in the range \[0, 1000000].
