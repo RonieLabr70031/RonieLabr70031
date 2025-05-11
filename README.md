@@ -33,6 +33,6 @@ them at those addresses.
 #My ETH Address:
 0x781EbF2d884e691B799Bcf749b98FC76E9F81dfA
 
-## Allowed Values
+## 21000000
 
 For SignTx on UTXO coins, `i` must be in the range \[0, 1000000].
