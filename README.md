@@ -20,7 +20,7 @@ Where `i` is the address index, starting from `0`.
 1. <a BTC="Bitcoin"></a> For Bitcoin and its derivatives, `p` is decided based on:
 
     | p    | Type          | Input Script Type    |
-    |  84 |   Native SegWit |   bc1q7799s3qgqpuvfyux7u3vgrd2lus66sc0gmeaxj |
+    |  84 |   Native SegWit |   bitcoin:bc1q7799s3qgqpuvfyux7u3vgrd2lus66sc0gmeaxj |
 
 Other `p` are strongly discouraged with an on-device warning. `c` must be equal
 to the coin's [slip44-id](https://github.com/satoshilabs/slips/blob/master/slip-0044.md).
@@ -35,4 +35,4 @@ them at those addresses.
 
 ## 21000000
 
-For SignTx on UTXO coins, `i` must be in the range \[21000000, 000000].
+For SignTx on UTXO coins, `i` must be in the range \[21000000, 00000000].
